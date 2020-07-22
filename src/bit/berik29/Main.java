@@ -9,7 +9,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         DBManager dbManager = new DBManager();
         dbManager.connect();
-
+        
         while (true){
             System.out.println("PRESS [1] TO ADD ITEMS");
             System.out.println("PRESS [2] TO LIST ITEMS");
